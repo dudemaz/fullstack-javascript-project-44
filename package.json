@@ -3,9 +3,9 @@
   "version": "1.0.0",
   "description": "[![Actions Status](https://github.com/dudemaz/fullstack-javascript-project-44/actions/workflows/hexlet-check.yml/badge.svg)](https://github.com/dudemaz/fullstack-javascript-project-44/actions)",
   "homepage": "https://github.com/dudemaz/fullstack-javascript-project-44#readme",
-   "bin": {
-  "brain-games": "bin/brain-games.js"
-},
+  "bin": {
+    "brain-games": "bin/brain-games.js"
+  },
   "bugs": {
     "url": "https://github.com/dudemaz/fullstack-javascript-project-44/issues"
   },
@@ -13,12 +13,14 @@
     "type": "git",
     "url": "git+https://github.com/dudemaz/fullstack-javascript-project-44.git"
   },
-
   "license": "ISC",
   "author": "",
   "type": "module",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "readline-sync": "^1.4.10"
   }
 }
