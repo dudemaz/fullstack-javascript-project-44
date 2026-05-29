@@ -4,7 +4,8 @@
   "description": "[![Actions Status](https://github.com/dudemaz/fullstack-javascript-project-44/actions/workflows/hexlet-check.yml/badge.svg)](https://github.com/dudemaz/fullstack-javascript-project-44/actions)",
   "homepage": "https://github.com/dudemaz/fullstack-javascript-project-44#readme",
   "bin": {
-    "brain-games": "bin/brain-games.js"
+    "brain-games": "bin/brain-games.js",
+    "brain-even": "bin/brain-even.js"
   },
   "bugs": {
     "url": "https://github.com/dudemaz/fullstack-javascript-project-44/issues"
@@ -22,5 +23,10 @@
   },
   "dependencies": {
     "readline-sync": "^1.4.10"
+  },
+  "devDependencies": {
+    "@eslint/js": "^10.0.1",
+    "eslint": "^10.4.1",
+    "globals": "^17.6.0"
   }
 }
