@@ -1,5 +1,6 @@
 
 import readlineSync from 'readline-sync';
+import crypto from 'crypto';
 import {greetUser} from '../cli.js'
 
 function isEven(num){
@@ -9,7 +10,7 @@ export function gameIsEven(){
     const name = greetUser()
     console.log(`Answer "yes" if the number is even, otherwise answer "no".`)
     for(let i = 0; i < 3; i++){
-        const randomNumber = Math.floor(Math.random() * 100)
+        const randomNumber = crypto.randomInt(0,100)
         const correctAnswer = isEven(randomNumber)? 'yes' : 'no'
 
         console.log(`Question: ${randomNumber}`)
