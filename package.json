@@ -5,7 +5,8 @@
   "homepage": "https://github.com/dudemaz/fullstack-javascript-project-44#readme",
   "bin": {
     "brain-games": "bin/brain-games.js",
-    "brain-even": "bin/brain-even.js"
+    "brain-even": "bin/brain-even.js",
+    "brain-calc": "bin/brain-calc.js"
   },
   "bugs": {
     "url": "https://github.com/dudemaz/fullstack-javascript-project-44/issues"
