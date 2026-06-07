@@ -30,7 +30,7 @@ export function CalcGame(){
 
         if(answerUser !== correctAnswer){
              console.log(`${answerUser} is wrong answer ;(. Correct answer was ${correctAnswer}.`)
-             console.log(`Let's try again, ${nameUser}`)
+             console.log(`Let's try again, ${nameUser}!`)
              return
         }
         console.log(`Correct!`)

@@ -21,7 +21,7 @@ export function gameStart(){
         const CorrectAnswer = findGcd(firstRandomNum,secondRandomNumbrr)
         if(answerUser !== CorrectAnswer){
             console.log(`${answerUser} is wrong answer ;(. Correct answer was ${CorrectAnswer}.`)
-            console.log(`Let's try again, ${nameUser}`)
+            console.log(`Let's try again, ${nameUser}!`)
             return
         }
         console.log(`Correct!`)

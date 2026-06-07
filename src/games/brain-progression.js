@@ -26,7 +26,7 @@ export function progressionGame(){
         const answerUser = Number(readlineSync.question(`Your answer: `))
         if(answerUser !== CorrectAnswer){
             console.log(`${answerUser} is wrong answer ;(. Correct answer was ${CorrectAnswer}.`)
-            console.log(`Let's try again, ${nameUser}`)
+            console.log(`Let's try again, ${nameUser}!`)
             return
         }
         console.log(`Correct!`)
