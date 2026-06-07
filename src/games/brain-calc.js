@@ -29,7 +29,9 @@ export function CalcGame(){
         const answerUser = Number(readlineSync.question(`Your answer: `))
 
         if(answerUser !== correctAnswer){
-            return console.log(`${answerUser} is wrong answer ;(. Correct answer was ${correctAnswer}.`)
+             console.log(`${answerUser} is wrong answer ;(. Correct answer was ${correctAnswer}.`)
+             console.log(`Let's try again, ${nameUser}`)
+             return
         }
         console.log(`Correct!`)
     }
