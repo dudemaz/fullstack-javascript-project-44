@@ -22,7 +22,7 @@ export function progressionGame(){
         let progression = loadDigits()
         let CorrectAnswer = progression[random]
         progression[random] = '..'
-        console.log(`Question: ${progression}`)
+        console.log(`Question: ${progression.join(' ')}`)
         const answerUser = Number(readlineSync.question(`Your answer: `))
         if(answerUser !== CorrectAnswer){
             console.log(`${answerUser} is wrong answer ;(. Correct answer was ${CorrectAnswer}.`)
