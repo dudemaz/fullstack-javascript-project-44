@@ -33,5 +33,5 @@ export function CalcGame(){
         }
         console.log(`Correct!`)
     }
-    console.log(`Congratulations, ${nameUser}`)
+    console.log(`Congratulations, ${nameUser}!`)
 }

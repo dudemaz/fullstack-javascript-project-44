@@ -31,5 +31,5 @@ export function progressionGame(){
         }
         console.log(`Correct!`)
     }
-    console.log(`Congratulations, ${nameUser}`)
+    console.log(`Congratulations, ${nameUser}!`)
 }

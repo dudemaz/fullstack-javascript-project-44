@@ -22,5 +22,5 @@ export function gameIsEven(){
         }
         console.log(`Correct!`)
     }
-    console.log(`Congratulations,${name}`)
+    console.log(`Congratulations, ${name}!`)
 }
