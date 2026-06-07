@@ -6,10 +6,9 @@ export function CalcGame(){
     let nameUser = greetUser()
     console.log(`What is the result of the expression?`)
     for(let i = 0; i < 3; i++){
-        let randomNumber = crypto.randomInt(0,100)
+        let numFirst = crypto.randomInt(0,100)
+        let numSecond = crypto.randomInt(0,100)
         let RandomOperand =  crypto.randomInt(0,3) 
-        let numFirst = randomNumber
-        let numSecond = randomNumber
         let correctAnswer;
         let operator;
         switch (RandomOperand) {
