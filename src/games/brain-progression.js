@@ -5,7 +5,7 @@ import {greetUser} from '../cli.js'
 function loadDigits(){
     const digits = []
     let start = crypto.randomInt(0,100)
-    let step = crypto.randomInt(0,9)
+    let step = crypto.randomInt(1,10)
     for(let i = 0; i < 10;i++){
     let currentElement = start + i * step
     digits.push(currentElement)
